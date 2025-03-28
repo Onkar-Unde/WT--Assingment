@@ -1,0 +1,76 @@
+/* Centering the login form */
+
+.login-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(123, 222, 255, 0.671);
+    box-shadow: 30px 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* Styling Heading */
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Input Group */
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Login Button */
+
+button {
+    background-color: #28A745;
+    color: white;
+    width: 50%;
+    padding: 3%;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #1e7e34;
+}
+
+
+/* Register Link */
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #28A745;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

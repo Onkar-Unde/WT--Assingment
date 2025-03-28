@@ -1,0 +1,45 @@
+.register {
+    background-color: rgba(123, 222, 255, 0.671);
+    width: 30rem;
+    height: 50rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 61, 82, 0.671);
+}
+
+.register h1 {
+    padding-top: 4rem;
+}
+
+.input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(31, 184, 54);
+    ;
+    color: white;
+    width: 50%;
+    height: 4%;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(3, 101, 18);
+    ;
+}
+
+#log {
+    color: rgb(31, 184, 54);
+    cursor: pointer;
+}
+
+#log a:hover {
+    text-decoration: underline;
+}

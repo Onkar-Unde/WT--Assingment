@@ -1,0 +1,20 @@
+<div class="register">
+    <h1>Registertion Form</h1>
+    <input type="text" placeholder="Enter your First name" class="input" /><br/>
+    <input type="text" placeholder="Enter your Middle name" class="input" /><br/>
+    <input type="text" placeholder="Enter your Last name" class="input" /><br/>
+    <input type="email" placeholder="Enter your email" class="input" /><br>
+    <input type="number" placeholder="Enter Mobile number" class="input" /><br/> Male
+    <input type="radio" name="gender" value="male" /> Female
+    <input type="radio" name="gender" value="Female" /><br/><br/>
+    <input type="date" placeholder="Enter your DOB" class="input" /><br/>
+    <textarea placeholder="Enter your address" class="input"></textarea>
+    <input type="password" placeholder="Enter your password" class="input" /><br/>
+    <input type="password" placeholder="Enter Your Confirm password" class="input" /><br/>
+    <input type="checkbox" /> I agree to the terms and conditions <br/><br/>
+
+    <button (click)="submitForm()">Submit</button>
+    <br/>
+    <br/> Already registered?
+    <a (click)="submitForm()" id="log">Login</a>
+</div>
